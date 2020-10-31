@@ -12,4 +12,10 @@ The trigger called TR_Check_Order will fire when a customer wishes to place an o
 - The customer does not have any overdue invoice which has not been paid.
 If the above check pass, then the INSERT statement is allowed to proceed.  
 
-Further explanation about the code can be found on my blog digitalskye.com 
+Here is the sequence to review the files.
+1. ERD: contain the entity-relationship diagram of the database.
+2. CreateDB: to create the database schema
+3. PopulateDB: to populate the database with sample data
+4. TR_Check_Order: to create the database trigger to solve the above-mentioned problem
+5. TestScript: to test whether the trigger works according to 4 different test cases.
+
